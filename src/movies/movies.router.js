@@ -1,8 +1,6 @@
 const router = require("express").Router();
 const controller = require("./movies.controller");
 const methodNotAllowed = require("../errors/methodNotAllowed");
-const theatersRouter = require("../theaters/theaters.router");
-const reviewsRouter = require("../reviews/reviews.router");
 
 router.route("/:movieId/reviews").get(controller.listReviews).all(methodNotAllowed);
 router.route("/:movieId/theaters").get(controller.listTheaters).all(methodNotAllowed);
