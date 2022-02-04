@@ -5,7 +5,7 @@ API built following RESTful design principles with PostgreSQL database for a moc
 
 Mock Front-End for this API can be found in [this repository](https://github.com/smiauek/starter-movie-front-end.git)
 
-Deployed API can be found [here](agile-lake-05280.herokuapp.com/movies)
+Deployed API can be found [here](https://agile-lake-05280.herokuapp.com/movies)
 
 ## Supported Routes:
 - `GET /movies`  
