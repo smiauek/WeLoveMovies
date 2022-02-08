@@ -31,4 +31,3 @@ This app is utilizing:
 - Node.js
 - Express.js
 - Knex.js
-
